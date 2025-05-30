@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Billing Address </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <style>
+    .box {
+      padding: 26px;
+      background-color: beige;
+      margin: 26px;
+      border-radius: 12px;
+      box-shadow: 1px 1px 1px 1px darkgray;
+    }
+
+    .icon_size {
+      font-size: 240%;
+    }
+
+    .rightside_Payment_form {
+      padding: top 12px;
+
+    }
+
+    .btn-blackgray {
+      background-color: dimgray;
+      color: aliceblue;
+      font-weight: bolder;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6">
+
+        <h2> Billing Address</h2>
+        <form>
+          <div class="form-group">
+            <label for="Name"> Full Name </label>
+            <input type="text" placeholder="Shameera banu" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="Name"> Address </label>
+            <input type="text" placeholder="17,New street" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="Name"> E-mail </label>
+            <input type="text" placeholder="rosy@gmail.com" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="Name"> City</label>
+            <input type="text" placeholder="Newyork" class="form-control">
+          </div>
+
+          
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <h3> Payments</h3>
+        <div>
+          <h6> Accepted Cards</h6>
+          <i class="fa fa-cc-visa" style="color: brown; font-size: 32px;" true"></i>
+          <i class="fa fa-cc-mastercard" style="color: dodgerblue; font-size: 32px;" true"></i>
+          <i class="fa fa-cc-amex" style="color: darkgreen; font-size: 32px;" true"></i>
+          <i class="fa fa-cc-discover" style="color: mediumslateblue; font-size: 32px;" true"></i>
+
+
+          <div class="rightside_Payment_form">
+            <div class="form-group">
+              <label for="Name"> Name on Card</label>
+              <input type="text" placeholder="Sameera banu" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="Name"> Card number</label>
+              <input type="text" placeholder="6787-0695-4262" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="Name"> Expiry Month </label>
+              <input type="text" placeholder="July" class="form-control">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-sm-3 col-md-3 col-lg-3">
+        <div class="form-group">
+          <label for="Name"> State</label>
+          <input type="text" placeholder="Victoria" class="form-control">
+        </div>
+      </div>
+
+      <div class="col-sm-3 col-md-3 col-lg-3">
+        <div class="form-group">
+          <label for="Name"> Zip code</label>
+          <input type="text" placeholder="001201" class="form-control">
+        </div>
+      </div>
+
+      <div class="col-sm-3 col-md-3 col-lg-3">
+        <div class="form-group">
+          <label for="Name"> Exp year</label>
+          <input type="text" placeholder="2027" class="form-control">
+        </div>
+      </div>
+      <div class="col-sm-3 col-md-3 col-lg-3">
+        <div class="form-group">
+          <label for="Name"> CVV </label>
+          <input type="text" placeholder="127" class="form-control">
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="check box">
+        <label> <input type="checkbox" value=" ">Shipping address is as same as billing address </label>
+      </div>
+      <div class="form-group">
+        <button class="btn btn-black gray btn-block">Make Payment </button>
+      </div>
+      </form>
+    </div>
+
+
+</body>
+
+</html>

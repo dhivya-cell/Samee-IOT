@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .spacel {
+        padding-top: 0.8cm;
+        padding-bottom: 0.8cm;
+    }
+
+    .LOGIN {
+        padding: 2cm;
+        padding-bottom: 2cm;
+        padding-left: 5cm;
+        padding-right: 5cm;
+    }
+
+    .heading-font {
+        font-family: fantasy;
+        font-weight: 600;
+        font-style: italic;
+        font-size: 1cm;
+    }
+
+    .label {
+        font-family: sans-serif;
+        font-weight: 500;
+        font-variant-position: normal;
+        font-style: italic;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <div class="LOGIN">
+        <div>
+            <form class="alert alert-info">
+                <h1 class="text-center heading-font"> login to your account </h1>
+
+                <div class="form-group">
+                    <label for="username"> <i class="fa fa-user" aria-hidden="true"></i>User Name </label>
+                    <input type="text" id="name" class="form control" placeholder="Enter user Name">
+                
+                </div>
+                <div class="form-group">
+                    <label for="password"><i class="fa fa-key" aria-hidden="true"></i> password </label>
+                    <input type="password" id="number" class="form control" placeholder="Enter your password">
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-6 col-md-6">
+                            <div>
+                                <button type="button" class=" btn btn-success" data-toggle="modal"
+                                    data-target="#forget-password"> forget your password
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-6 col-md-6">
+                            <div>
+                                <button class="btn btn-info btn-block" type="submit" id="submit"> creat New Account
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="spacel">
+                    <button class="btn btn-success btn-block" type="submit" id="submit"> Login to your account</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+
+h1 {
+    color: #ff0000
+}
+h2 {color: #7826e2;
+
+}
+body{
+    background-image: url('mobb\ img.jpg');
+    background-position: top;
+}
+
+p{
+    font-family: cursive;
+}
+  address{
+    font-variant: small-caps;
+  } 
+  

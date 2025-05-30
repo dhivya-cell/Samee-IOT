@@ -1,0 +1,364 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .jumbotron {
+            font-weight: bolder;
+            font-size: 550%;
+            text-transform: uppercase;
+
+        }
+
+        .navbar {
+            background-color: darkgray;
+            padding-top: 0.5cm;
+            padding-bottom: 0.5;
+            border-radius: 0%;
+        }
+
+        .navbar a {
+            padding-left: 1cm;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        .navbar a :hover {
+            color: beige;
+            padding-left: 0.3cm;
+
+        }
+
+        .add-space {
+            padding-top: 0.3cm;
+            padding-bottom: 0.5cm;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        #hello {
+            font-size: x-large;
+            color: blanchedalmond;
+        }
+
+        .footer {
+            color: aliceblue;
+            font-weight: bolder;
+            font-weight: bolder;
+            font-size: larger;
+        }
+
+        h3 {
+            text-transform: capitalize;
+            text-decoration: underline;
+            color: azure;
+        }
+
+        .list {
+            list-style: none;
+            font-weight: bolder;
+            line-height: 0.7cm;
+        }
+
+        .footer {
+            background-color: darkgrey;
+            padding: 1cm;
+            padding-top: 0.3cm;
+        }
+
+        .line {
+            text-decoration: underline;
+        }
+
+        .footer li {
+            color: azure;
+            font-family: cursive;
+            color: midnightblue;
+        }
+
+        strike {
+            color: red;
+        }
+
+        .main {
+            padding-left: 50px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #outer {
+            padding: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Nav bar-->
+    <section>
+        <div class="navbar">
+            <a href="index.html"> Home </a>
+            <a href="panel.html"> My profile </a>
+            <a href=" "> Log out </a>
+            <a href=" "> My Order </a>
+        </div>
+    </section>
+    <div class="Container" id="outer">
+        <!--Header(Online Shop)-->
+        <section>
+            <div class="Container">
+                <h1 class="text-center jumbotron">
+                    Shop <span class="label label-success"> Online </span></h1>
+            </div>
+        </section>
+        <section>
+            <div class="btn-group add-space">
+                <button class="btn btn-success" id=""> Mobile </button>
+                <button class="btn btn-info" id=""> Watches </button>
+                <button class="btn btn-primary" id=""> Laptops </button>
+                <button class="btn btn-warning" id=""> Computer equipments </button>
+                <button class="btn btn-default" id=""> Mobile Accesaries </button>
+            </div>
+        </section>
+        <!--Guide-->
+        <section>
+            <div>
+                <ul class="breadcrumb">
+                    <li> <a href="" data-toggle="tooltip" title="Click here to visit home page"> Home </a></li>
+                    <li> <a href="" data-toggle="tooltip" title="Click here to modify settings "> Settings </a></li>
+                    <li> <a href="" data-toggle="tooltip" title="Click here to look your profile"> Profile </a></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div>
+                <ul class="pager">
+                    <li class="Previous"> <a href=""> Previous </a></li>
+                    <li class="Next"> <a href=""> Next </a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Product Show-->
+        <section>
+            <div>
+                <div class="row">
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="panel-group">
+                            <div class="panel panel-info">
+                                <div class="panel-heading" style="font-weight: bolder; color: black;"> I watch </div>
+                                <div class="panel-body">
+                                    <center><img src="watch.jpg" width="40%" height="40%"></center>
+                                </div>
+                                <div class="main">
+                                    <h6>
+                                        Apple Watch Series 10 Sport Band
+                                        SKU: MWWL3HN/A Barcode: 195949554551 <br>
+                                        ₹ 49,900 <strike> ₹ 55,000 </strike> <br>
+                                        Apple Watch Series 10 Sport Band
+                                        Tax included. Shipping calculated at checkout.
+                                    </h6>
+                                </div>
+                                <div class="panel-footer"><button class="btn btn-block btn-success"> <i
+                                            class="fa fa-shopping-cart" aria-hidden="true"></i> <a
+                                            href="E:\Samee IOT\SAMEE .IOT\billing.html"> Buy </a>
+                                    </button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="panel-group">
+                            <div class="panel panel-info">
+                                <div class="panel-heading" style="font-weight: bolder; color: black;"> I watch </div>
+                                <div class="panel-body">
+                                    <center><img src="watch1.jpg" width="40%" height="40%"></center>
+                                </div>
+                                <div class="main">
+                                    <h6>
+                                        Apple Watch Series 10 Sport Band
+                                        SKU: MWWL3HN/A Barcode: 195949554551 <br>
+                                        ₹ 49,900 <strike> ₹ 55,000 </strike> <br>
+                                        Apple Watch Series 10 Sport Band
+                                        Tax included. Shipping calculated at checkout.
+                                    </h6>
+                                </div>
+
+                                <div class="panel-footer"><button class="btn btn-block btn-success"> <i
+                                            class="fa fa-shopping-cart" aria-hidden="true"></i> <a
+                                            href="E:\Samee IOT\SAMEE .IOT\billing.html"> Buy </a>
+                                    </button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="panel-group">
+                            <div class="panel panel-info">
+                                <div class="panel-heading" style="font-weight: bolder; color: black;"> I watch </div>
+                                <div class="panel-body">
+                                    <center><img src="watch2.jpg" width="40%" height="40%"></center>
+                                </div>
+                                <div class="main">
+                                    <h6>
+                                        Apple Watch Series 10 Sport Band
+                                        SKU: MWWL3HN/A Barcode: 195949554551 <br>
+                                        ₹ 49,900 <strike> ₹ 55,000 </strike> <br>
+                                        Apple Watch Series 10 Sport Band
+                                        Tax included. Shipping calculated at checkout.
+                                    </h6>
+                                </div>
+                                <div class="panel-footer"><button class="btn btn-block btn-success"> <i
+                                            class="fa fa-shopping-cart" aria-hidden="true"></i> <a
+                                            href="E:\Samee IOT\SAMEE .IOT\billing.html">Buy</a>
+                                    </button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="panel-group">
+                            <div class="panel panel-info">
+                                <div class="panel-heading" style="font-weight: bolder; color: black;"> I watch </div>
+                                <div class="panel-body">
+                                <center><img src="apple.jpg" width="33%" height="20%" ></center> </div>
+                                <div class="main">
+                                    <h6>
+                                        Apple Watch Series 10 Sport Band
+                                        SKU: MWWL3HN/A Barcode: 195949554551 <br>
+                                        ₹ 49,900 <strike> ₹ 55,000 </strike> <br>
+                                        Apple Watch Series 10 Sport Band
+                                        Tax included. Shipping calculated at checkout.
+                                    </h6>
+                                </div>
+                                <div class="panel-footer"><button class="btn btn-block btn-success"> <i
+                                            class="fa fa-shopping-cart" aria-hidden="true"></i> <a
+                                            href="E:\Samee IOT\SAMEE .IOT\billing.html">Buy</a>
+                                    </button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="panel-group">
+                            <div class="panel panel-info">
+                                <div class="panel-heading" style="font-weight: bolder; color: black;"> I watch </div>
+                                <div class="panel-body">
+                                <center><img src="oneplus.jpg" width="40%" height="40%"></center> </div>
+                                <div class="main">
+                                    <h6>
+                                        Apple Watch Series 10 Sport Band
+                                        SKU: MWWL3HN/A Barcode: 195949554551 <br>
+                                        ₹ 49,900 <strike> ₹ 55,000 </strike> <br>
+                                        Apple Watch Series 10 Sport Band
+                                        Tax included. Shipping calculated at checkout.
+                                    </h6>
+                                </div>
+                                <div class="panel-footer"><button class="btn btn-block btn-success"> <i
+                                            class="fa fa-shopping-cart" aria-hidden="true"></i> <a
+                                            href="E:\Samee IOT\SAMEE .IOT\billing.html">Buy</a>
+                                    </button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="panel-group">
+                            <div class="panel panel-info">
+                                <div class="panel-heading" style="font-weight: bolder; color: black;"> I watch </div>
+                                <div class="panel-body">
+                                <center><img src="samsung.jpg" width="40%" height="50%" ></center> </div>
+                                <div class="main">
+                                    <h6>
+                                        Apple Watch Series 10 Sport Band
+                                        SKU: MWWL3HN/A Barcode: 195949554551 <br>
+                                        ₹ 49,900 <strike> ₹ 55,000 </strike> <br>
+                                        Apple Watch Series 10 Sport Band
+                                        Tax included. Shipping calculated at checkout.
+                                    </h6>
+                                </div>
+                                <div class="panel-footer"><button class="btn btn-block btn-success"> <i
+                                            class="fa fa-shopping-cart" aria-hidden="true"></i> <a
+                                            href="E:\Samee IOT\SAMEE .IOT\billing.html">Buy</a>
+                                    </button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--page No-->
+        <section>
+            <div>
+                <center>
+                    <ul class="pagination pagination-lg">
+                        <li><a href=""> 1 </a> </li>
+                        <li><a href=""> 2 </a> </li>
+                        <li><a href=""> 3 </a> </li>
+                        <li><a href=""> Next </a> </li>
+                    </ul>
+                </center>
+            </div>
+        </section>
+        <div style="background-color: darkslategray;">
+            <div class="row">
+
+            </div>
+            <div>
+                <div class="footer">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <ul class="list">
+                                <h3 class="line">Our Services</h3>
+                                <li> mobile services</li>
+                                <li> Laptop services </li>
+                                <li> watch & Clocks</li>
+                                <li> Google Ad</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <ul class="list">
+                                <h3 class="line">Our Branches</h3>
+                                <li> Trichirappalli</li>
+                                <li>Perambalur</li>
+                                <li>Viruthachalam</li>
+                                <li>Labbaikudikadu</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <ul class="list">
+                                <h3 class="line">Follow Us</h3>
+                                <li> Facebook-https://www.facebook.com/your.Abu.in </li>
+                                <li>Instagram-https://help.instagram.com/Mass mobiles.in</li>
+                                <li>Whatsapp-9000000000</li>
+                                <li>Labbaikudikadu branch(opposite to Canara bank)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+main {
+  background-color: blanchedalmond;
+  background-size: cover;
+  background-image: url('laptop2.jpg');
+  background-position: right;
+}
+
+header {
+
+  color:black;
+  background-image: url('img\ mob.jpg');
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  text-decoration: crimson;
+}

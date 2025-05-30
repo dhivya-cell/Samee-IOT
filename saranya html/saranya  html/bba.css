@@ -1,0 +1,33 @@
+#petanimals{border-style: double;
+        background-color: blueviolet;
+        color: rgb(43, 226, 125);
+    border: 20px solid rgb(255, 153, 0);
+background-image: url(download\ \(4\).jpg);}
+.dog,.cat{font-style: italic;
+          font-size: larger;
+          color: aqua;
+          background-image: url(download\ \(5\).jpg);
+          border-style: dashed;
+        border: 10px solid cornflowerblue;
+        border-color: crimson;}
+.wildanimals{border-style: double;
+    background-image: url(download\ \(2\).jpg);
+            border-color: rgb(255, 0, 200);
+            color: coral;
+        border: 10px solid brown;}
+            .lion{border-color: crimson;
+            border: 8px solid blueviolet;
+        border: darkgoldenrod;
+    border-style: double;
+border-radius: 20px;
+background-image: url(download\ \(8\).jpg);
+}
+
+    
+.tiger{
+    border-color: rgb(255, 0, 0);
+    color: rgb(112, 80, 255);
+border-style: dotted;
+background-image: url(download\ \(4\).jpg);
+border: 20px solid palevioletred;}
+    
